@@ -1,0 +1,51 @@
+// Options
+  
+$enable-rounded:            true !default;
+$enable-shadows:            true;
+$enable-transitions:        true;
+$enable-hover-media-query:  false;
+$enable-grid-classes:       true;
+$enable-print-styles:       true;
+
+// Variables
+//
+// Colors
+
+$theme-colors: (
+  primary: #f0f0f0,
+  secondary: #ede1cb,
+  light: #f3f3f3,
+  dark: #151515,
+  info: #ecd1c8,
+  success: #28a745,
+  warning: #ffc107,
+  danger: #dc3545
+);
+
+$body-bg: white;
+$body-color: #000;
+
+
+$body-color-inverse: invert($body-color) !default;
+$link-color: #000;
+
+// Fonts
+$font-family-base: Montserrat&display=swap, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Montserrat";
+$headings-font-family: Montserrat&display=swap, $font-family-base;
+$display-font-family: $font-family-base;
+
+
+$lead-font-size:   1.30rem;
+
+$spacer: 1.5rem;
+$enable-responsive-font-sizes: true;
+$font-weight-base: $font-weight-normal;
+
+
+
+@import 'bootstrap-4.3.1';
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+.sideBox {
+}
